@@ -12,12 +12,9 @@ listHeading.forEach((element) => {
 
     listHeading.forEach((element) => {
       if (element.innerHTML != tragetedlistHeading.innerHTML) {
+        element.classList.remove("heading--hover");
         element.children[1].classList.remove("expanded-button");
         element.nextElementSibling.classList.remove("list__content-expand");
-      }
-
-      If (!element.children[1].classList.contains("expanded-button")) {
-        element.classList.remove("heading--hover");
       }
     });
   });
