@@ -33,6 +33,12 @@ body {
   place-content: center;
 }
 
+h2,
+p {
+  margin: 0;
+  font-size: inherit;
+}
+
 .heading {
   font-size: 3rem;
   color: var(--color-heading);
