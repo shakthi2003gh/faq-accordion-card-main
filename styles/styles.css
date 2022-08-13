@@ -135,7 +135,6 @@ button.expanded-button {
     height: 40.5rem;
     grid-template-columns: repeat(2, 1fr);
     padding: 4.5rem;
-    overflow: hidden;
   }
 
   .section__image {
